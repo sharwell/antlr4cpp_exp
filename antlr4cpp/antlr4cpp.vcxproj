@@ -84,23 +84,37 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="antlr\test\test_graph_nodes.hpp" />
+    <ClInclude Include="antlr\v4\runtime\atn\atn_configuration.hpp" />
+    <ClInclude Include="antlr\v4\runtime\atn\atn_configuration_set.hpp" />
+    <ClInclude Include="antlr\v4\runtime\atn\atn_state.hpp" />
+    <ClInclude Include="antlr\v4\runtime\atn\conflict_information.hpp" />
     <ClInclude Include="antlr\v4\runtime\atn\lexer_action.hpp" />
+    <ClInclude Include="antlr\v4\runtime\atn\lexer_action_executor.hpp" />
     <ClInclude Include="antlr\v4\runtime\atn\prediction_context.hpp" />
     <ClInclude Include="antlr\v4\runtime\atn\prediction_context_cache.hpp" />
+    <ClInclude Include="antlr\v4\runtime\atn\semantic_context.hpp" />
     <ClInclude Include="antlr\v4\runtime\misc\murmur_hash.hpp" />
+    <ClInclude Include="antlr\v4\runtime\misc\param_type.hpp" />
     <ClInclude Include="antlr\v4\runtime\misc\ptr_equal_to.hpp" />
     <ClInclude Include="antlr\v4\runtime\misc\ptr_hash.hpp" />
     <ClInclude Include="antlr\v4\runtime\misc\unordered_ptr_map.hpp" />
     <ClInclude Include="antlr\v4\runtime\misc\unordered_ptr_set.hpp" />
+    <ClInclude Include="antlr\v4\runtime\misc\visitor.hpp" />
+    <ClInclude Include="antlr\v4\runtime\tree\parse_tree.hpp" />
+    <ClInclude Include="antlr\v4\runtime\tree\parse_tree_visitor.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="antlr4cpp.cpp" />
     <ClCompile Include="antlr\test\test_graph_nodes.cpp" />
+    <ClCompile Include="antlr\v4\runtime\atn\atn_configuration.cpp" />
+    <ClCompile Include="antlr\v4\runtime\atn\atn_configuration_set.cpp" />
     <ClCompile Include="antlr\v4\runtime\atn\lexer_action.cpp" />
+    <ClCompile Include="antlr\v4\runtime\atn\lexer_action_executor.cpp" />
     <ClCompile Include="antlr\v4\runtime\atn\prediction_context.cpp" />
     <ClCompile Include="antlr\v4\runtime\atn\prediction_context_cache.cpp" />
+    <ClCompile Include="antlr\v4\runtime\atn\semantic_context.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -108,6 +122,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="antlr\v4\runtime\atn\prediction_context_cache.inl" />
+    <None Include="antlr\v4\runtime\tree\parse_tree_visitor.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

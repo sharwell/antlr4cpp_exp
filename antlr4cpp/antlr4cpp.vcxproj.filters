@@ -34,6 +34,9 @@
     <Filter Include="Header Files\test">
       <UniqueIdentifier>{53bb9ecd-7354-4df9-bf89-6d25266a79af}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\runtime\tree">
+      <UniqueIdentifier>{770a12b8-3caf-4da2-9522-b5f828fc4877}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -57,6 +60,21 @@
     <ClInclude Include="antlr\test\test_graph_nodes.hpp">
       <Filter>Header Files\test</Filter>
     </ClInclude>
+    <ClInclude Include="antlr\v4\runtime\atn\atn_configuration.hpp">
+      <Filter>Header Files\runtime\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="antlr\v4\runtime\atn\atn_configuration_set.hpp">
+      <Filter>Header Files\runtime\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="antlr\v4\runtime\atn\conflict_information.hpp">
+      <Filter>Header Files\runtime\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="antlr\v4\runtime\atn\atn_state.hpp">
+      <Filter>Header Files\runtime\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="antlr\v4\runtime\atn\semantic_context.hpp">
+      <Filter>Header Files\runtime\atn</Filter>
+    </ClInclude>
     <ClInclude Include="antlr\v4\runtime\misc\ptr_hash.hpp">
       <Filter>Header Files\runtime\misc</Filter>
     </ClInclude>
@@ -71,6 +89,21 @@
     </ClInclude>
     <ClInclude Include="antlr\v4\runtime\atn\lexer_action.hpp">
       <Filter>Header Files\runtime\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="antlr\v4\runtime\atn\lexer_action_executor.hpp">
+      <Filter>Header Files\runtime\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="antlr\v4\runtime\tree\parse_tree.hpp">
+      <Filter>Header Files\runtime\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="antlr\v4\runtime\tree\parse_tree_visitor.hpp">
+      <Filter>Header Files\runtime\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="antlr\v4\runtime\misc\param_type.hpp">
+      <Filter>Header Files\runtime\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="antlr\v4\runtime\misc\visitor.hpp">
+      <Filter>Header Files\runtime\misc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -89,13 +122,28 @@
     <ClCompile Include="antlr\test\test_graph_nodes.cpp">
       <Filter>Source Files\test</Filter>
     </ClCompile>
+    <ClCompile Include="antlr\v4\runtime\atn\atn_configuration.cpp">
+      <Filter>Source Files\runtime\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="antlr\v4\runtime\atn\atn_configuration_set.cpp">
+      <Filter>Source Files\runtime\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="antlr\v4\runtime\atn\semantic_context.cpp">
+      <Filter>Source Files\runtime\atn</Filter>
+    </ClCompile>
     <ClCompile Include="antlr\v4\runtime\atn\lexer_action.cpp">
+      <Filter>Source Files\runtime\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="antlr\v4\runtime\atn\lexer_action_executor.cpp">
       <Filter>Source Files\runtime\atn</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="antlr\v4\runtime\atn\prediction_context_cache.inl">
       <Filter>Header Files\runtime\atn</Filter>
+    </None>
+    <None Include="antlr\v4\runtime\tree\parse_tree_visitor.inl">
+      <Filter>Header Files\runtime\tree</Filter>
     </None>
   </ItemGroup>
 </Project>
