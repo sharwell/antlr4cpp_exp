@@ -12,6 +12,9 @@
 #include <antlr/test/test_interval_set.hpp>
 #include <antlr/test/test_visitor_inheritance.hpp>
 
+#include <antlr/v4/runtime/atn/atn_state.hpp>
+#include <antlr/v4/runtime/atn/atn_deserialization_options.hpp>
+
 int _tmain(int /*argc*/, _TCHAR* /*argv*/[])
 {
 	antlr::test::test_graph_nodes();

@@ -43,6 +43,9 @@
     <Filter Include="Header Files\runtime\dfa">
       <UniqueIdentifier>{198d6a76-8266-4484-91ba-3d51a16ed6eb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\runtime\dfa">
+      <UniqueIdentifier>{5886bdfd-8472-4a65-8261-83806ba6a66b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -65,6 +68,12 @@
     </ClInclude>
     <ClInclude Include="antlr\test\test_graph_nodes.hpp">
       <Filter>Header Files\test</Filter>
+    </ClInclude>
+    <ClInclude Include="antlr\v4\runtime\atn\atn_configuration.hpp">
+      <Filter>Header Files\runtime\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="antlr\v4\runtime\atn\atn_configuration_set.hpp">
+      <Filter>Header Files\runtime\atn</Filter>
     </ClInclude>
     <ClInclude Include="antlr\v4\runtime\atn\conflict_information.hpp">
       <Filter>Header Files\runtime\atn</Filter>
@@ -117,8 +126,20 @@
     <ClInclude Include="antlr\v4\runtime\atn\atn_deserialization_options.hpp">
       <Filter>Header Files\runtime\atn</Filter>
     </ClInclude>
+    <ClInclude Include="antlr\v4\runtime\atn\atn_deserializer.hpp">
+      <Filter>Header Files\runtime\atn</Filter>
+    </ClInclude>
     <ClInclude Include="antlr\v4\runtime\atn\atn_type.hpp">
       <Filter>Header Files\runtime\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="antlr\v4\runtime\atn\grammar_atn.hpp">
+      <Filter>Header Files\runtime\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="antlr\v4\runtime\dfa\dynamic_dfa.hpp">
+      <Filter>Header Files\runtime\dfa</Filter>
+    </ClInclude>
+    <ClInclude Include="antlr\v4\runtime\dfa\dfa_state.hpp">
+      <Filter>Header Files\runtime\dfa</Filter>
     </ClInclude>
     <ClInclude Include="antlr\v4\runtime\dfa\accept_state_information.hpp">
       <Filter>Header Files\runtime\dfa</Filter>
@@ -158,6 +179,12 @@
     <ClCompile Include="antlr\test\test_graph_nodes.cpp">
       <Filter>Source Files\test</Filter>
     </ClCompile>
+    <ClCompile Include="antlr\v4\runtime\atn\atn_configuration.cpp">
+      <Filter>Source Files\runtime\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="antlr\v4\runtime\atn\atn_configuration_set.cpp">
+      <Filter>Source Files\runtime\atn</Filter>
+    </ClCompile>
     <ClCompile Include="antlr\v4\runtime\atn\semantic_context.cpp">
       <Filter>Source Files\runtime\atn</Filter>
     </ClCompile>
@@ -178,6 +205,15 @@
     </ClCompile>
     <ClCompile Include="antlr\v4\runtime\atn\transition.cpp">
       <Filter>Source Files\runtime\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="antlr\v4\runtime\atn\atn_deserializer.cpp">
+      <Filter>Source Files\runtime\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="antlr\v4\runtime\atn\grammar_atn.cpp">
+      <Filter>Source Files\runtime\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="antlr\v4\runtime\dfa\dynamic_dfa.cpp">
+      <Filter>Source Files\runtime\dfa</Filter>
     </ClCompile>
     <ClCompile Include="antlr\test\test_interval_set.cpp">
       <Filter>Source Files\test</Filter>
